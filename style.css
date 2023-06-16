@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@400;800&display=swap');
+
+html, body {
+    font-family: 'Noto Sans Symbols', sans-serif;
+    background-color: #1F1F1F;
+}
+
+#key {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% - 2rem));
+
+    font-size: 300px;
+    color: white;
+    line-height: 0;
+
+    user-select: none;
+}
+
+#arrow {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 250px);
+    transform: translate(-50%, calc(-50%));
+
+    width: 150px;
+    height: 150px;
+
+    background-image: url('arrow-right-bold.svg');
+    background-size: cover;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+#restart {
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    float: right;
+
+    background-image: url('restart.svg');
+    background-size: cover;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+#progress {
+    margin: 1rem;
+
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+
+    user-select: none;
+}
+
+.Hidden {
+    display: none;
+}
+
+
+/* .Button {
+    display: inline-block;
+
+    color: white;
+    font-size: 72px;
+    user-select: none;
+    cursor: pointer;
+
+    padding: 20px;
+    border: 1px solid white;
+} */
